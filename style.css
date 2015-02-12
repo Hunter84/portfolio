@@ -1,0 +1,304 @@
+body {
+	background-color: #F2C968;
+	margin: 0 auto;
+	text-decoration: none;
+}
+
+p {
+	font-weight: bold;
+}
+
+#wrapper {
+	width: 100%;
+	max-height: 100%;
+}
+
+#color-me {
+	float: right;
+	width: 80px;
+	height: 45px;
+}
+
+.steam img{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	float: left;
+	padding: 10px 0 0 0;
+}
+
+.productions img{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	padding: 10px 5px 0 5px;
+}
+
+.logo {
+	max-width: 90%;
+	margin: 0 auto;
+	font-size: 2em;
+	opacity: 1;
+	padding-bottom: 25%;
+	padding-top: 60%;
+}
+
+#menu {
+	width: 15%;
+	min-height: 100%;
+	padding-left: 0px;
+	float: left;
+	text-align: center;
+	background-color: #656868;
+	position: fixed;
+	border-right: 1px solid #000;
+}
+
+#menu ul {
+	padding-left: 8%;
+}
+
+#menu li {
+	width: 100%;
+	padding: 5% 0;
+	text-align: center;
+	text-decoration: none;
+	list-style-type: none;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	opacity: 0.6;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+#field {
+	width: 85%;
+	max-width: 85%;
+	margin: 0 auto;
+	/*padding-top: 1%;*/
+	float: right;
+	text-align: center;
+	    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+/*NEW NEW NEW NEW NEW NEW NEW NEW*/
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+    padding: 0 0 1em 0;
+    background-image: url('http://goo.gl/sQpZQH');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: solid 1em rgb(82,81,48);
+    border-bottom: solid .3em rgb(82,81,48)
+}
+
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    text-shadow: -.05em .05em rgb(82,81,48);
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.masthead h1 {
+	border:0 solid;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.social > li {
+    display: inline-block;
+}
+
+.introduction-section > p,
+.location-section > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+section > h1 {
+    margin-top: 2em;
+    border-bottom:5px solid rgb(82,81,48);
+    border-radius: 0 5px 5px 0;
+
+}
+
+section > h2 {
+    border-bottom: 3px solid rgb(82,81,48);
+    border-radius: 0 5px 5px 0;
+}
+
+@media only screen and (max-width: 500px) {
+    .masthead {
+        /*padding: 3em 0;*/
+    }
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+
+
+/*END END END END END END END END*/
+
+#home {
+	max-height:80%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#home img {
+	width: 70%;
+	height: auto;
+	border-radius: 80px;
+
+}
+
+
+#projects {
+	max-height:80%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 5%;
+	text-align: center;
+	display: none;
+}
+
+#half1 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#half2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+hr {
+	margin: 0 auto;
+	width: 40%;
+}
+
+.projectItems {
+	max-width: 45%;
+	width: 45%;
+	margin: 1% 0;
+	float: left;
+	display: inline-block;
+}
+
+.projectItems:nth-child(3) {
+	clear: both;
+}
+
+.projectItems img {
+	max-width: 45%;
+	margin: 0 auto;
+	width: 45%;
+	height: auto;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+#download {
+	max-height:80%;
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: none;
+}
+
+#download img {
+	border-radius: 150px;
+	width: 60%;
+	height: auto;
+}
+
+button {
+  border:1px solid #000;
+  background-color: #888;
+  border-radius: .5em;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #777;
+}
+
+@media only screen and (max-width: 650px), only screen and (max-device-width: 650px) {
+	#menu {
+		width: 30%;
+	}
+	#field {
+		width: 70%;
+		/*padding-top: 15%;*/
+		font-size: 10px;
+	}
+	#color-me {
+	float: right;
+	width: 60px;
+	height: 45px;
+	}
+	.steam img{
+		width: 25px;
+		height: 25px;
+		padding: 10px 0 0 0;
+	}
+
+	.productions img{
+		width: 25px;
+		height: 25px;
+		padding: 10px 2.5px 0 2.5px;
+
+		}
+	}
